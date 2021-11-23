@@ -1,0 +1,15 @@
+
+
+.btn-main {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: var(--main-color);
+  border-radius: 4px;
+  margin: auto;
+  display: inline-block;
+}
+
+.btn-main:hover {
+  background-color: var(--hover-color);;
+}

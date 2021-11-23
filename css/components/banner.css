@@ -1,0 +1,26 @@
+.banner {
+  width: 100vw;
+  height: 400px;
+  background-image: linear-gradient(-225deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 50%),
+  url('https://media.istockphoto.com/photos/happy-puppy-dog-smiling-on-isolated-yellow-background-picture-id1267466399?b=1&k=20&m=1267466399&s=170667a&w=0&h=KvxHe6yir1ZBtHVp4hYLxDv-g3nkvmzhi-sn0D9w9VQ=');
+  background-size: cover;
+  background-position-y: bottom 30%;
+  background-repeat: no-repeat;
+}
+
+.banner h2 {
+  font-size: 3rem;
+  color: var(--main-color);
+  text-align: left;
+}
+
+@media (max-width: 960px) {
+  .banner {
+    background-position: left;
+    height: 200px;
+  }
+  .banner h2 {
+      font-size: 2rem;
+      max-width: 200px;
+  }
+}

@@ -1,0 +1,74 @@
+@import url(components/card.css);
+@import url(components/button.css);
+@import url(components/banner.css);
+
+* {
+    font-family: 'Roboto', sans-serif;
+    --bg-color: #FFF1D0;
+    --main-color: #2A2B2E;
+    --secondary-color: #5A5A66;
+    --accent-color: #ACEB98;
+    --hover-color: #A4C2A8;
+}
+
+body {
+  background-color: var(--bg-color);
+  min-height: 100vh;
+  display:flex;
+  flex-direction:column;
+  margin: 0;
+  color: var(--accent-color)
+}
+
+
+.container {
+  margin: 20px auto;
+  max-width: 900px;
+  display: flex;
+  flex-direction: row;
+  justify-content:center;
+  align-items: flex-start;
+}
+
+.footer {
+  padding-bottom: 20px;
+  margin-top: auto;
+  text-align: center;
+  color:var(--main-color)
+}
+
+.list-social {
+  padding: 0;
+}
+
+.list-social li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 10px;
+}
+
+.list-social i {
+  color:var(--main-color);;
+}
+
+.list-social i:hover {
+  color: var(--hover-color);
+  transition: top ease 0.5s;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    flex-direction: column;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
